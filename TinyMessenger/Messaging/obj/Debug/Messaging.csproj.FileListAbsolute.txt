@@ -1,0 +1,10 @@
+C:\Code\DekaSFO\Services\MabelService\Messaging\bin\Debug\Deka.Mabel.Messaging.dll
+C:\Code\DekaSFO\Services\MabelService\Messaging\bin\Debug\Deka.Mabel.Messaging.pdb
+C:\Code\DekaSFO\Services\MabelService\Messaging\obj\Debug\Messaging.csprojResolveAssemblyReference.cache
+C:\Code\DekaSFO\Services\MabelService\Messaging\obj\Debug\Deka.Mabel.Messaging.dll
+C:\Code\DekaSFO\Services\MabelService\Messaging\obj\Debug\Deka.Mabel.Messaging.pdb
+C:\Code\Test\TinyMessenger\Messaging\bin\Debug\Deka.Messaging.dll
+C:\Code\Test\TinyMessenger\Messaging\bin\Debug\Deka.Messaging.pdb
+C:\Code\Test\TinyMessenger\Messaging\obj\Debug\Messaging.csprojResolveAssemblyReference.cache
+C:\Code\Test\TinyMessenger\Messaging\obj\Debug\Deka.Messaging.dll
+C:\Code\Test\TinyMessenger\Messaging\obj\Debug\Deka.Messaging.pdb

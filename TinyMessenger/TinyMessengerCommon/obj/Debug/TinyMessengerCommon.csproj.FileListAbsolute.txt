@@ -1,0 +1,5 @@
+C:\Code\Test\TinyMessenger\TinyMessengerCommon\bin\Debug\TinyMessengerCommon.dll
+C:\Code\Test\TinyMessenger\TinyMessengerCommon\bin\Debug\TinyMessengerCommon.pdb
+C:\Code\Test\TinyMessenger\TinyMessengerCommon\obj\Debug\TinyMessengerCommon.csprojResolveAssemblyReference.cache
+C:\Code\Test\TinyMessenger\TinyMessengerCommon\obj\Debug\TinyMessengerCommon.dll
+C:\Code\Test\TinyMessenger\TinyMessengerCommon\obj\Debug\TinyMessengerCommon.pdb

@@ -1,0 +1,10 @@
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessengerConsole/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessengerConsole/bin/Debug/TinyMessengerConsole.exe.config
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessengerConsole/bin/Debug/TinyMessengerConsole.exe.mdb
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessengerConsole/bin/Debug/TinyMessengerConsole.exe
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessengerConsole/obj/Debug/TinyMessengerConsole.exe
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessengerConsole/obj/Debug/TinyMessengerConsole.exe.mdb
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessengerConsole/bin/Debug/Deka.Messaging.dll
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessengerConsole/bin/Debug/Deka.Messaging.dll.mdb
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessengerConsole/bin/Debug/TinyMessenger.dll
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessengerConsole/bin/Debug/TinyMessenger.dll.mdb

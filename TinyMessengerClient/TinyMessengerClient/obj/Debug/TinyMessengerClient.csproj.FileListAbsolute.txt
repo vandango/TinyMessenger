@@ -1,0 +1,10 @@
+C:\Code\Test\TinyMessengerClient\TinyMessengerClient\bin\Debug\TinyMessengerClient.exe.config
+C:\Code\Test\TinyMessengerClient\TinyMessengerClient\obj\Debug\TinyMessengerClient.MainForm.resources
+C:\Code\Test\TinyMessengerClient\TinyMessengerClient\obj\Debug\TinyMessengerClient.Properties.Resources.resources
+C:\Code\Test\TinyMessengerClient\TinyMessengerClient\obj\Debug\TinyMessengerClient.csproj.GenerateResource.Cache
+C:\Code\Test\TinyMessengerClient\TinyMessengerClient\bin\Debug\TinyMessengerClient.exe
+C:\Code\Test\TinyMessengerClient\TinyMessengerClient\bin\Debug\TinyMessengerClient.pdb
+C:\Code\Test\TinyMessengerClient\TinyMessengerClient\obj\Debug\TinyMessengerClient.exe
+C:\Code\Test\TinyMessengerClient\TinyMessengerClient\obj\Debug\TinyMessengerClient.pdb
+C:\Code\Test\TinyMessengerClient\TinyMessengerClient\obj\Debug\TinyMessengerClient.csprojResolveAssemblyReference.cache
+C:\Code\Test\TinyMessengerClient\TinyMessengerClient\obj\Debug\TinyMessengerClient.BaseLayoutForm.resources

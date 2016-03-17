@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.NetTcpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;MessengerService&quot; /&gt;" bindingType="netTcpBinding" name="MessengerService" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;net.tcp://localhost:50777/TinyMessenger/MessengerService&quot; binding=&quot;netTcpBinding&quot; bindingConfiguration=&quot;MessengerService&quot; contract=&quot;MessengerService.IMessengerService&quot; name=&quot;MessengerService&quot;&gt;&lt;identity&gt;&lt;userPrincipalName value=&quot;E083590@dekager.dekabank.intern&quot; /&gt;&lt;/identity&gt;&lt;/Data&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;net.tcp://localhost:50777/TinyMessenger/MessengerService&quot; binding=&quot;netTcpBinding&quot; bindingConfiguration=&quot;MessengerService&quot; contract=&quot;MessengerService.IMessengerService&quot; name=&quot;MessengerService&quot;&gt;&lt;identity&gt;&lt;userPrincipalName value=&quot;E083590@dekager.dekabank.intern&quot; /&gt;&lt;/identity&gt;&lt;/Data&gt;" contractName="MessengerService.IMessengerService" name="MessengerService" />
+  </endpoints>
+</configurationSnapshot>

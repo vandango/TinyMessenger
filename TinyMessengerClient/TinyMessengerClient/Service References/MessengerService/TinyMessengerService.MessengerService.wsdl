@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://TinyMessengerService.MessengerService" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://TinyMessengerService.MessengerService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://TinyMessengerService.MessengerService/Imports">
+      <xsd:import namespace="http://TinyMessengerService.MessengerService" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/TinyMessenger.Model.Service" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMessengerService_Connect_InputMessage">
+    <wsdl:part name="parameters" element="tns:Connect" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_Disconnect_InputMessage">
+    <wsdl:part name="parameters" element="tns:Disconnect" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_SendMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessage" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_RequestChat_InputMessage">
+    <wsdl:part name="parameters" element="tns:RequestChat" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_RequestMyChats_InputMessage">
+    <wsdl:part name="parameters" element="tns:RequestMyChats" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_RequestMyFriends_InputMessage">
+    <wsdl:part name="parameters" element="tns:RequestMyFriends" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_CreateChat_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateChat" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_AddFriend_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddFriend" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_SendErrorResponse_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:SendErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_SendMessageResponse_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:SendMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_UserEnterResponse_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UserEnterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_UserLeaveResponse_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UserLeaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_RequestChatResponse_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:RequestChatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_RequestMyChatsResponse_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:RequestMyChatsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_RequestMyFriendsResponse_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:RequestMyFriendsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMessengerService_CreateChatResponse_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:CreateChatResponse" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="true" name="IMessengerService">
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Connect">
+      <wsdl:input wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/Connect" message="tns:IMessengerService_Connect_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="false" msc:isTerminating="true" name="Disconnect">
+      <wsdl:input wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/Disconnect" message="tns:IMessengerService_Disconnect_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="false" msc:isTerminating="false" name="SendMessage">
+      <wsdl:input wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/SendMessage" message="tns:IMessengerService_SendMessage_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="false" msc:isTerminating="false" name="RequestChat">
+      <wsdl:input wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/RequestChat" message="tns:IMessengerService_RequestChat_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="false" msc:isTerminating="false" name="RequestMyChats">
+      <wsdl:input wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/RequestMyChats" message="tns:IMessengerService_RequestMyChats_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="false" msc:isTerminating="false" name="RequestMyFriends">
+      <wsdl:input wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/RequestMyFriends" message="tns:IMessengerService_RequestMyFriends_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="false" msc:isTerminating="false" name="CreateChat">
+      <wsdl:input wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/CreateChat" message="tns:IMessengerService_CreateChat_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="false" msc:isTerminating="false" name="AddFriend">
+      <wsdl:input wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/AddFriend" message="tns:IMessengerService_AddFriend_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SendErrorResponse">
+      <wsdl:output wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/SendErrorResponse" message="tns:IMessengerService_SendErrorResponse_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SendMessageResponse">
+      <wsdl:output wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/SendMessageResponse" message="tns:IMessengerService_SendMessageResponse_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="UserEnterResponse">
+      <wsdl:output wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/UserEnterResponse" message="tns:IMessengerService_UserEnterResponse_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="UserLeaveResponse">
+      <wsdl:output wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/UserLeaveResponse" message="tns:IMessengerService_UserLeaveResponse_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="RequestChatResponse">
+      <wsdl:output wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/RequestChatResponse" message="tns:IMessengerService_RequestChatResponse_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="RequestMyChatsResponse">
+      <wsdl:output wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/RequestMyChatsResponse" message="tns:IMessengerService_RequestMyChatsResponse_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="RequestMyFriendsResponse">
+      <wsdl:output wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/RequestMyFriendsResponse" message="tns:IMessengerService_RequestMyFriendsResponse_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="CreateChatResponse">
+      <wsdl:output wsaw:Action="http://TinyMessengerService.MessengerService/IMessengerService/CreateChatResponse" message="tns:IMessengerService_CreateChatResponse_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

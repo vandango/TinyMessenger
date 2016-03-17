@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/TinyMessenger.Model.Service" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TinyMessenger.Model.Service" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="MessageModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ChatId" type="ser:guid" />
+      <xs:element minOccurs="0" name="RequestTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="User" nillable="true" type="tns:UserModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MessageModel" nillable="true" type="tns:MessageModel" />
+  <xs:complexType name="UserModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="UserId" type="xs:int" />
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserModel" nillable="true" type="tns:UserModel" />
+  <xs:complexType name="ChatModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AllUsers" nillable="true" type="tns:ArrayOfUserModel" />
+      <xs:element minOccurs="0" name="ChatId" type="ser:guid" />
+      <xs:element minOccurs="0" name="Messages" nillable="true" type="tns:ArrayOfMessageModel" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NewMessageCounter" type="xs:int" />
+      <xs:element minOccurs="0" name="StartingUser" nillable="true" type="tns:UserModel" />
+      <xs:element minOccurs="0" name="TargetUsers" nillable="true" type="tns:ArrayOfUserModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChatModel" nillable="true" type="tns:ChatModel" />
+  <xs:complexType name="ArrayOfUserModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UserModel" nillable="true" type="tns:UserModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUserModel" nillable="true" type="tns:ArrayOfUserModel" />
+  <xs:complexType name="ArrayOfMessageModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MessageModel" nillable="true" type="tns:MessageModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMessageModel" nillable="true" type="tns:ArrayOfMessageModel" />
+  <xs:complexType name="ArrayOfChatModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatModel" nillable="true" type="tns:ChatModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfChatModel" nillable="true" type="tns:ArrayOfChatModel" />
+</xs:schema>

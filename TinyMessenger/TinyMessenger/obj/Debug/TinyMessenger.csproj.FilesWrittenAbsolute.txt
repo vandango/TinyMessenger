@@ -1,0 +1,9 @@
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessenger/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessenger/obj/Debug/TinyMessenger.Forms.AboutBox.resources
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessenger/obj/Debug/TinyMessenger.Forms.AdminForm.resources
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessenger/bin/Debug/TinyMessenger.dll.mdb
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessenger/bin/Debug/TinyMessenger.dll
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessenger/obj/Debug/TinyMessenger.dll
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessenger/obj/Debug/TinyMessenger.dll.mdb
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessenger/bin/Debug/Deka.Messaging.dll
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/TinyMessenger/bin/Debug/Deka.Messaging.dll.mdb

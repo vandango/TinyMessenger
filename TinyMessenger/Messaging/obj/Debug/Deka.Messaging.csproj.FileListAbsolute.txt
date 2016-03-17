@@ -1,0 +1,5 @@
+C:\Code\DekaSFO\Framework\DEKA.Messaging\Deka.Messaging\bin\Debug\Deka.Messaging.dll
+C:\Code\DekaSFO\Framework\DEKA.Messaging\Deka.Messaging\bin\Debug\Deka.Messaging.pdb
+C:\Code\DekaSFO\Framework\DEKA.Messaging\Deka.Messaging\obj\Debug\Deka.Messaging.dll
+C:\Code\DekaSFO\Framework\DEKA.Messaging\Deka.Messaging\obj\Debug\Deka.Messaging.pdb
+C:\Code\DekaSFO\Framework\DEKA.Messaging\Deka.Messaging\obj\Debug\Deka.Messaging.csprojResolveAssemblyReference.cache

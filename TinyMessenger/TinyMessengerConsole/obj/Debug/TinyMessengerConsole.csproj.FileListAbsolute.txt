@@ -1,0 +1,10 @@
+C:\Code\Test\TinyMessenger\TinyMessengerConsole\bin\Debug\TinyMessengerConsole.exe.config
+C:\Code\Test\TinyMessenger\TinyMessengerConsole\bin\Debug\TinyMessengerConsole.exe
+C:\Code\Test\TinyMessenger\TinyMessengerConsole\bin\Debug\TinyMessengerConsole.pdb
+C:\Code\Test\TinyMessenger\TinyMessengerConsole\bin\Debug\Deka.Messaging.dll
+C:\Code\Test\TinyMessenger\TinyMessengerConsole\bin\Debug\TinyMessenger.dll
+C:\Code\Test\TinyMessenger\TinyMessengerConsole\bin\Debug\Deka.Messaging.pdb
+C:\Code\Test\TinyMessenger\TinyMessengerConsole\bin\Debug\TinyMessenger.pdb
+C:\Code\Test\TinyMessenger\TinyMessengerConsole\obj\Debug\TinyMessengerConsole.csprojResolveAssemblyReference.cache
+C:\Code\Test\TinyMessenger\TinyMessengerConsole\obj\Debug\TinyMessengerConsole.exe
+C:\Code\Test\TinyMessenger\TinyMessengerConsole\obj\Debug\TinyMessengerConsole.pdb

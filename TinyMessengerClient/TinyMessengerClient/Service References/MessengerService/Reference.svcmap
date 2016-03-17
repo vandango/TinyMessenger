@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="97f7bbf7-4acc-4542-b029-475a9608c4d9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:50777/TinyMessenger/MessengerService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TinyMessengerService.MessengerService.wsdl" MetadataType="Wsdl" ID="c7c4dae5-a4cc-481c-8653-86d358ab3b37" SourceId="1" SourceUrl="net.tcp://localhost:50777/TinyMessenger/MessengerService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="c8616b20-d6e2-44a0-9b18-f85a4e341894" SourceId="1" SourceUrl="net.tcp://localhost:50777/TinyMessenger/MessengerService/mex" />
+    <MetadataFile FileName="TinyMessengerService.MessengerService.xsd" MetadataType="Schema" ID="27df19b2-b8b8-4861-9bec-34aef1e212ea" SourceId="1" SourceUrl="net.tcp://localhost:50777/TinyMessenger/MessengerService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="76131340-92a3-4a4f-88b6-458b9e998650" SourceId="1" SourceUrl="net.tcp://localhost:50777/TinyMessenger/MessengerService/mex" />
+    <MetadataFile FileName="TinyMessenger.Model.Service.xsd" MetadataType="Schema" ID="3a565c55-65bb-4e7b-af88-27248b4d9311" SourceId="1" SourceUrl="net.tcp://localhost:50777/TinyMessenger/MessengerService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

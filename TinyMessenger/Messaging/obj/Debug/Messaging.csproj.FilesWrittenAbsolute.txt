@@ -1,0 +1,5 @@
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/Messaging/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/Messaging/bin/Debug/Deka.Messaging.dll.mdb
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/Messaging/bin/Debug/Deka.Messaging.dll
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/Messaging/obj/Debug/Deka.Messaging.dll
+/Users/jnaumann/Projects/github/TinyMessenger/TinyMessenger/Messaging/obj/Debug/Deka.Messaging.dll.mdb
